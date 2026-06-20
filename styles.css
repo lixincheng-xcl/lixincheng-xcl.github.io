@@ -631,7 +631,7 @@ body.home {
 
 .callout p:last-child {
   margin-bottom: 0;
-  font-weight: 700;
+  font-weight: 400;
 }
 
 .research-block {
@@ -735,6 +735,22 @@ body.home {
 .home .scholar-icon {
   width: 58px;
   height: 58px;
+}
+
+.home .orcid-icon {
+  width: 58px;
+  height: 58px;
+  color: #fff;
+  background: #000;
+  border-radius: 50%;
+  font-size: 26px;
+  font-weight: 700;
+}
+
+.home .orcid-icon:hover,
+.home .orcid-icon:focus {
+  color: #fff;
+  background: #4f58ff;
 }
 
 .home .university-icon {
@@ -1055,9 +1071,16 @@ body.home {
     color: #eeeeee;
   }
 
-  .home .linkedin-icon {
+  .home .linkedin-icon,
+  .home .orcid-icon {
     color: #111;
     background: #eeeeee;
+  }
+
+  .home .orcid-icon:hover,
+  .home .orcid-icon:focus {
+    color: #111;
+    background: #cfcfcf;
   }
 
   .footer,
